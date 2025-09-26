@@ -1,0 +1,52 @@
+* {
+	font-family: Helvetica;
+}
+body {
+	background-color: #eaeaea;
+}
+nav,
+footer {
+	background-color: #625b5b;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+header img {
+	width: 100%;
+}
+.listaPunktowa ul {
+	margin-left: 40px;
+	list-style: circle;
+}
+nav a {
+	font-weight: bold;
+	background-color: #eaeaea;
+	color: #625b5b;
+	padding: 10px;
+	margin: 50px;
+	border-radius: 20px;
+}
+nav a:hover {
+	background-color: #625b5b;
+	color: #eaeaea;
+	border: 1px solid #eaeaea;
+}
+main table {
+	border: 1px dashed #625b5b;
+	width: 60%;
+	margin-left: 40px;
+	text-align: center;
+}
+.kontrolki {
+	margin: 5px;
+}
+.kontrolki form input {
+	margin-right: 10px;
+}
+
+input[type='number'] {
+	margin-left: 10px;
+}
+.kontrolki select {
+	margin: 7px 0 10px 0;
+}

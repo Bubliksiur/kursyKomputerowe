@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Raty</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h3>Oblicz miesięczną ratę</h3>
+	</header>
+	<main>
+		<section class="kontrolki">
+			<form>
+				<label><input type="checkbox" name="checkbox" id="checkboxReact">Kurs React.js</label> <br>
+				<label><input type="checkbox" name="checkbox" id="checkboxJs">Kurs JavaScript</label> <br>
+				<label>Liczba rat <input type="number" name="poleEdytacyjne" id="poleEdytacyjne"></label> <br>
+
+				<select name="miasta" id="miasta">
+					<option id="warszawa" value="Warszawa">Warszawa</option>
+					<option id="katowice" value="Katowice">Katowice</option>
+					<option id="gdansk" value="Gdańsk">Gdańsk</option>
+				</select> <br>
+
+				<button id="obliczBtn">Oblicz</button>
+			</form>
+			<p id="komunikat"></p>
+		</section>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
